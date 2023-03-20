@@ -1,6 +1,4 @@
 import { Inter } from "next/font/google";
-import BGVideo from "./components/BGVideo";
-import Connect from "./components/Connect";
 import Cards from "./components/Front Page/Cards";
 import Hero from "./components/Hero";
 import SundayDeets from "./components/SundayDeets";
@@ -14,8 +12,6 @@ export default function Home() {
       <Hero />
       <Welcome />
       <Cards />
-      {/* <SundayDeets /> */}
-      {/* <BGVideo /> */}
     </main>
   );
 }
