@@ -1,5 +1,6 @@
 import Image from "next/image";
-import HeroButtons from "./HeroButtons";
+import HeroButtons from "../HeroButtons";
+import SundayCard from "./SundayCard";
 
 function Sundays() {
   return (
@@ -17,6 +18,14 @@ function Sundays() {
           textColour="text-black"
           ringColour="ring-black"
         />
+        <div className=" grid grid-cols-3 gap-5">
+          <SundayCard text="Sunday School" pic="/sunday_school.jpeg" />
+          <SundayCard text="Young Adults" pic="/young_adults.jpeg" />
+          <SundayCard
+            text="Children's and Youth Groups"
+            pic="/youth_groups.jpeg"
+          />
+        </div>
         <h1 className=" pt-28">Watch our latest sermon here</h1>
         <div className=" bg-black opacity-70 px-20 py-32 relative ">
           <div className="w-3/4 mx-auto relative">

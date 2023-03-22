@@ -12,10 +12,6 @@ function Header() {
               <Image src="/mainLogo.png" width={500} height={500} />
             </Link>
           </div>
-
-          {/* <p className=" text-sm text-gray-100">
-            Where everyone is someone and Jesus Christ is Lord
-          </p> */}
         </div>
         <div className=" text-white">
           <ul className=" flex gap-5">
