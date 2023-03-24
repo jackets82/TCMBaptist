@@ -14,6 +14,7 @@ function Hero() {
       ></video> */}
       <Image
         src="/church.jpg"
+        alt=""
         style={{ objectFit: "cover", objectPosition: "50% 50%" }}
         fill
       />
