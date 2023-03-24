@@ -21,7 +21,7 @@ function Sundays() {
         <hr className="h-2 rounded w-32 mx-auto bg-gray-200 border-0 dark:bg-gray-700 my-8"></hr>
 
         <p className=" text-3xl">What else happens</p>
-        <div className=" grid grid-cols-3 gap-5 mt-5">
+        <div className=" grid md:grid-cols-3 gap-5 mt-5 grid-cols-1">
           <SundayCard text="Sunday School" pic="/sunday_school.jpeg" />
           <SundayCard text="Extra Time" pic="/Extra Time.png" />
           <SundayCard text="Sunday Evenings" pic="/Sunday_evenings.jpeg" />
