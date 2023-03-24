@@ -9,7 +9,7 @@ function Sundays() {
         <h1 className=" text-4xl">Sundays</h1>
         <hr className="h-2 rounded w-32 mx-auto bg-gray-200 border-0 dark:bg-gray-700 my-8"></hr>
         <div>
-          <p>Our worship service starts every Lord's day at 10:30</p>
+          <p>Our worship service starts every Sunday at 10:30</p>
           <p>Here you want some more basic details about Sunday mornings</p>
         </div>
         <HeroButtons
