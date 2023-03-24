@@ -9,7 +9,7 @@ function Header() {
         <div className=" flex">
           <div className=" w-44">
             <Link href="/#">
-              <Image src="/mainLogo.png" width={500} height={500} />
+              <Image src="/mainLogo.png" width={500} height={500} alt="" />
             </Link>
           </div>
         </div>
