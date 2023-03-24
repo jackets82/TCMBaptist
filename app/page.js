@@ -1,8 +1,5 @@
 import { Inter } from "next/font/google";
-import Cards from "./components/Front Page/Cards";
-import Hero from "./components/Hero";
-import Ministries from "./components/Ministries";
-import SundayDeets from "./components/Sundays/SundayDeets";
+import Hero from "./components/Hero/Hero";
 import Sundays from "./components/Sundays/Sundays";
 import Welcome from "./components/Welcome";
 
