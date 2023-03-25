@@ -28,7 +28,7 @@ function page() {
             )and along with all the other churches in the FIEC we are committed
             to the following truths of historic, biblical Christianity:
           </p>
-          <div className=" grid grid-cols-3 gap-10">
+          <div className=" md:grid grid-cols-3 gap-10 flex flex-col">
             <BeliefsCard
               title="God"
               text="There is one God, who exists eternally in three distinct but equal persons: the Father, the Son, and the Holy Spirit. God is unchangeable in his holiness, justice, wisdom and love. He is the almighty Creator, Saviour and Judge who sustains and governs all things according to his sovereign will for his own glory."
