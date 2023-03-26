@@ -16,7 +16,7 @@ function page() {
             style={{ objectFit: "cover", objectPosition: "" }}
           />
         </div> */}
-        <div className=" max-w-6xl mx-auto px-10 xl:px-0 flex flex-col gap-5 pb-10 mt-20">
+        <div className=" max-w-6xl mx-auto sm:p-2 px-10 xl:px-0 flex flex-col gap-5 pb-10 mt-20">
           <p>
             TCM is a member of the Fellowship of Independent Evangelical
             Churches (

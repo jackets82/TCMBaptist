@@ -5,7 +5,7 @@ import HeaderDropDown from "./HeaderDropDown";
 function Header() {
   return (
     <div className=" bg-black py-3 top-0 z-10 absolute w-full">
-      <div className=" max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
+      <div className=" max-w-6xl mx-auto flex justify-between items-center md:px-10 px-2 xl:px-0">
         <div className=" flex">
           <div className=" w-44">
             <Link href="/#">
@@ -16,7 +16,20 @@ function Header() {
 
         <div className=" text-white">
           <div className=" md:hidden">
-            <p>This is the closed menu</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
           </div>
           <div className=" hidden md:inline">
             <ul className=" flex gap-5">
