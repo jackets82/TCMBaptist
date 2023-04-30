@@ -4,7 +4,7 @@ import ContactIcon from "./ContactIcon";
 function Footer() {
   return (
     <div className=" bg-black py-36 text-white fill-white ">
-      <div className="grid grid-cols-3 mx-auto max-w-6xl place-items-center pb-20">
+      <div className="md:grid grid-cols-3 mx-auto max-w-6xl place-items-center pb-20 md:gap-0 gap-5 flex flex-col">
         <ContactIcon
           title="EMAIL"
           deets="admin@tcmlincoln"

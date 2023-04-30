@@ -24,12 +24,20 @@ function HeaderDropDown({ links, title }) {
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items
+<<<<<<< HEAD
           className=" absolute right-0 origin-top-right mt-2  w-56 divide-y divide-gray-100
+=======
+          className=" absolute right-0 origin-top-right mt-4 w-56 divide-y divide-gray-100
+>>>>>>> origin/main
         bg-white shadowlg ring-1 ring-black ring-opacity-5 focus:outline-none
         "
         >
           {links.map((link) => (
+<<<<<<< HEAD
             <div className=" p1">
+=======
+            <div className=" p1" key={link.label}>
+>>>>>>> origin/main
               <Menu.Item>
                 {({ active }) => (
                   <Link
