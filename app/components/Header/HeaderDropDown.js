@@ -29,11 +29,10 @@ function HeaderDropDown({ links, title }) {
         "
         >
           {links.map((link) => (
-            <div className=" p1">
-              <Menu.Item key={link.label}>
+            <div className=" p1" key={link.label}>
+              <Menu.Item>
                 {({ active }) => (
                   <Link
-                    key={link.label}
                     className={`${
                       active ? " bg-gray-500" : "text-gray-900"
                     } group flex  p-1 items-center text`}
