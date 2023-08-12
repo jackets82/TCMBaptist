@@ -12,13 +12,10 @@ export default function Home() {
   return (
     <main className=" bg-red-600 flex-grow">
       <Hero />
-      {/* <Marquee /> */}
       <Welcome />
       <WhyICome />
       <WhatsOn />
       <Cards />
-      {/* <SundayDeets /> */}
-      {/* <BGVideo /> */}
     </main>
   );
 }

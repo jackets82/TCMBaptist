@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="relative h-screen block">
       <video
-        src="/hd0983.mov"
+        src="hero_video.mov"
         muted
         autoPlay
         loop
