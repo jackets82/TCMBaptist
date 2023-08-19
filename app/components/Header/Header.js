@@ -4,7 +4,7 @@ import HeaderDropDown from "./HeaderDropDown";
 
 function Header() {
   return (
-    <div className=" bg-black py-3 top-0 z-10 absolute w-full">
+    <div className=" bg-black py-3 top-0 z-10 absolute w-full sticky">
       <div className=" max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
         <div className=" flex">
           <div className=" w-44">

@@ -5,15 +5,17 @@ import Hero from "./components/Hero";
 import Welcome from "./components/Welcome";
 import WhatsOn from "./components/Front Page/whatson/WhatsOn";
 import WhyICome from "./components/Front Page/whyICome/WhyICome";
+import JoinUsMain from "./components/Front Page/joinUs/JoinUsMain";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className=" bg-red-600 flex-grow">
+    <main className="flex-grow">
       <Hero />
       <Welcome />
       <WhyICome />
+      <JoinUsMain />
       <WhatsOn />
       <Cards />
     </main>
