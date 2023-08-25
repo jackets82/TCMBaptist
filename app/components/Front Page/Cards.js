@@ -2,7 +2,7 @@ import Card from "./Card";
 
 function Cards() {
   return (
-    <div className=" bg-slate-400 py-44">
+    <div className="  bg-white py-44">
       <div className=" max-w-6xl mx-auto grid md:grid-cols-3 justify-center gap-5 grid-cols-1 lg:px-0">
         <Card
           image="/hope_explored.jpeg"
