@@ -3,7 +3,7 @@ import WhatsOnCircle from "./WhatsOnCircle";
 function WhatsOn() {
   return (
     <div className=" flex flex-col items-center gap-10 py-20  bg-slate-400">
-      <h1 className=" text-4xl">What`&apos;`s On</h1>
+      <h1 className=" text-4xl">What&apos;s On</h1>
       <div className=" sm:grid sm:grid-cols-2 md:grid-cols-4 flex flex-col max-w-5xl mx-auto gap-y-10">
         <WhatsOnCircle
           title="Mens Ministry"
