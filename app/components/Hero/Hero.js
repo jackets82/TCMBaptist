@@ -3,7 +3,7 @@ import HeroButtons from "./HeroButtons";
 
 function Hero() {
   return (
-    <div className="relative h-screen block bg-rose-600">
+    <div className="relative h-screen block">
       <video
         src="/hero_video-smallerer.mov"
         muted

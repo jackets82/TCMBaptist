@@ -18,7 +18,7 @@ export default function Home() {
       <WhyICome />
       <JoinUsMain />
       <WhatsOn />
-      {/* <Cards /> */}
+      <Cards />
     </main>
   );
 }
