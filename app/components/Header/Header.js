@@ -1,11 +1,36 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import HeaderDropDown from "./HeaderDropDown";
+import { useEffect, useState } from "react";
 
 function Header() {
+  const top_colour = "bg-none";
+  const scroll_colour = "bg-black";
+  const top_text = "text-black";
+  const scroll_text = "text-white";
+
+  const [backgroundColour, setbackgroundColour] = useState(top_colour);
+  const [textColour, settextColour] = useState(top_text);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 90) {
+        setbackgroundColour(scroll_colour);
+        settextColour(scroll_text);
+      } else {
+        setbackgroundColour(top_colour);
+        settextColour(top_text);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className=" bg-black py-3 top-0 z-10 w-full sticky">
-      <div className=" max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
+    <div
+      className={`${backgroundColour} ${textColour} font-bold py-3 top-0 z-20 w-full sticky transition-all duration-300 `}
+    >
+      <div className="max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
         <div className=" flex">
           <div className=" w-44">
             <Link href="/#">
@@ -14,7 +39,7 @@ function Header() {
           </div>
         </div>
 
-        <div className=" text-white">
+        <div className="">
           <ul className=" flex gap-5">
             <Link href="/#">
               <li>Home</li>
@@ -65,9 +90,6 @@ function Header() {
             />
             <Link href="/#" className=" ">
               <li>Donate</li>
-            </Link>
-            <Link href="/#">
-              <li>Home</li>
             </Link>
           </ul>
         </div>

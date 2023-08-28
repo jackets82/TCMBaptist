@@ -1,15 +1,14 @@
-import Image from "next/image";
 import HeroButtons from "./HeroButtons";
 
 function Hero() {
   return (
-    <div className="relative h-screen block">
+    <div className="relative -mt-20 h-screen block">
       <video
         src="/hero_video-smallerer.mov"
         muted
         autoPlay
         loop
-        className="absolute w-screen min-h-full"
+        className="absolute w-screen h-1/2"
         style={{ objectFit: "cover" }}
       ></video>
       {/* <Image
@@ -18,7 +17,7 @@ function Hero() {
         style={{ objectFit: "cover", objectPosition: "50% 50%" }}
         fill
       /> */}
-      <div className=" text-white absolute top-1/3 left-1/2 -translate-x-1/2 text-center ">
+      <div className=" text-white absolute font-bold w-full top-1/3 left-1/2 -translate-x-1/2 text-center ">
         <h1 className=" text-6xl pb-5">A Christ centered Church</h1>
         <p className=" text-3xl">In the world but not of the world</p>
         <div className=" flex justify-center gap-5">
