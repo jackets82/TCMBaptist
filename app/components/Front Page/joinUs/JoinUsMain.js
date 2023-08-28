@@ -20,7 +20,7 @@ function JoinUsMain() {
         </div>
         <div className=" rounded-2xl w-1/2 relative overflow-hidden">
           <Image src="/sermon.jpg" fill style={{ objectFit: "cover" }} />
-          <div className="absolute items-center w-full gap-5 flex flex-col text-white bottom-10 justify-center">
+          <div className="absolute z-9 items-center w-full gap-5 flex flex-col text-white bottom-10 justify-center">
             <h1 className=" text-4xl">Watch Past Sermons</h1>
             <p className=" text-xl tracking-wider">
               Listen to previous messages
