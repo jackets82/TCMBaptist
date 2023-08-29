@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 function Header() {
   const top_colour = "bg-none";
-  const scroll_colour = "bg-black";
+  const scroll_colour = "bg-slate-500";
   const top_text = "text-black";
   const scroll_text = "text-white";
 
@@ -28,7 +28,7 @@ function Header() {
 
   return (
     <div
-      className={`${backgroundColour} ${textColour} font-bold py-3 top-0 z-20 w-full sticky transition-all duration-300 `}
+      className={`${backgroundColour} ${textColour}  font-bold py-3 top-0 z-20 w-full sticky transition-all duration-300 `}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
         <div className=" flex">

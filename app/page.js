@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import Hero from "./components/Hero/Hero";
 import Welcome from "./components/Welcome";
-import WhatsOn from "./components/Front Page/whatson/WhatsOn";
 import WhyICome from "./components/Front Page/whyICome/WhyICome";
 import JoinUsMain from "./components/Front Page/joinUs/JoinUsMain";
 
@@ -14,8 +13,6 @@ export default function Home() {
       <Welcome />
       <WhyICome />
       <JoinUsMain />
-      {/* <WhatsOn /> */}
-      {/* <Cards /> */}
     </main>
   );
 }

@@ -2,7 +2,7 @@ import HeroButtons from "./HeroButtons";
 
 function Hero() {
   return (
-    <div className=" relative -mt-20 bg-red-600 h-[50vh]">
+    <div className=" relative -mt-20 h-[50vh]">
       <video
         src="/hero_video-smallerer.mov"
         muted
