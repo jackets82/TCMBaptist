@@ -1,3 +1,5 @@
+import FrontPageButtons from "./Buttons/FrontPageButtons";
+
 function Welcome() {
   return (
     <div className=" bg-white">
@@ -16,6 +18,10 @@ function Welcome() {
         <p className=" text-2xl">
           Join us here and discover the way to salvation.
         </p>
+        <div className="mt-20 w-1/2 mx-auto flex justify-evenly">
+          <FrontPageButtons link="#" title="Statement of Faith" />
+          <FrontPageButtons link="#" title="Sundays" />
+        </div>
       </div>
     </div>
   );

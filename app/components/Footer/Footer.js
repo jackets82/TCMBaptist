@@ -3,7 +3,7 @@ import ContactIcon from "./ContactIcon";
 
 function Footer() {
   return (
-    <div className=" bg-slate-500 py-36 text-white fill-white ">
+    <div className=" bg-gray-400 py-36 text-white fill-white ">
       <div className="md:grid grid-cols-3 mx-auto max-w-6xl place-items-center pb-20 md:gap-0 gap-5 flex flex-col">
         <ContactIcon
           title="EMAIL"
@@ -33,7 +33,7 @@ function Footer() {
           }
         />
       </div>
-      <div className=" bg-slate-500 flex justify-center flex-col text-center">
+      <div className="flex justify-center flex-col text-center">
         <div className=" flex mx-auto gap-5 items-center pb-5">
           <SocialButton
             colour="blue"

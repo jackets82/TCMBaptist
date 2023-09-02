@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 function Header() {
   const top_colour = "bg-none";
-  const scroll_colour = "bg-slate-500";
+  const scroll_colour = "bg-gray-400";
   const top_text = "text-black";
   const scroll_text = "text-white";
 
