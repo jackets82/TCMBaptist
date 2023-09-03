@@ -19,7 +19,10 @@ function Welcome() {
           Join us here and discover the way to salvation.
         </p>
         <div className="mt-20 w-1/2 mx-auto flex justify-evenly">
-          <FrontPageButtons link="#" title="Statement of Faith" />
+          <FrontPageButtons
+            link="/Subpages/About/Beliefs"
+            title="Statement of Faith"
+          />
           <FrontPageButtons link="#" title="Sundays" />
         </div>
       </div>

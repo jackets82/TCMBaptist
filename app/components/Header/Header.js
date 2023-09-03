@@ -9,18 +9,23 @@ function Header() {
   const scroll_colour = "bg-gray-400";
   const top_text = "text-black";
   const scroll_text = "text-white";
+  const black_logo = "/mainLogoBlack.png";
+  const white_logo = "/mainLogo.png";
 
   const [backgroundColour, setbackgroundColour] = useState(top_colour);
   const [textColour, settextColour] = useState(top_text);
+  const [logo, setLogo] = useState(black_logo);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= 90) {
         setbackgroundColour(scroll_colour);
         settextColour(scroll_text);
+        setLogo(white_logo);
       } else {
         setbackgroundColour(top_colour);
         settextColour(top_text);
+        setLogo(black_logo);
       }
     };
     window.addEventListener("scroll", handleScroll);
@@ -34,7 +39,7 @@ function Header() {
         <div className=" flex">
           <div className=" w-44">
             <Link href="/#">
-              <Image src="/mainLogo.png" width={500} height={500} alt="" />
+              <Image src={`${logo}`} width={500} height={500} alt="" />
             </Link>
           </div>
         </div>
