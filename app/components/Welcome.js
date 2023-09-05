@@ -23,7 +23,7 @@ function Welcome() {
             link="/Subpages/About/Beliefs"
             title="Statement of Faith"
           />
-          <FrontPageButtons link="#" title="Sundays" />
+          <FrontPageButtons link="/Subpages/Sundays" title="Sundays" />
         </div>
       </div>
     </div>
