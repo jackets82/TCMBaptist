@@ -1,6 +1,4 @@
 import Image from "next/image";
-import JoinUs from "./JoinUs";
-import LeftJoinUs from "./LeftJoinUs";
 import JoinUsCards from "./JoinUsCards";
 
 function JoinUsMain() {
@@ -16,25 +14,11 @@ function JoinUsMain() {
         </div>
       </div>
       <h1 className=" text-3xl">Explore what else happens at TCM</h1>
-      <div className=" grid grid-cols-3 gap-5 w-full place-items-center">
-        <JoinUsCards />
-        <JoinUsCards />
-        <JoinUsCards />
-        <JoinUsCards />
-        <JoinUsCards />
-        <JoinUsCards />
-        {/* <div className=" rounded-2xl w-1/2 relative overflow-hidden">
-          <Image src="/sermon.jpg" fill style={{ objectFit: "cover" }} />
-          <div className="absolute z-9 items-center w-full gap-5 flex flex-col text-white bottom-10 justify-center">
-            <h1 className=" text-4xl">Watch Past Sermons</h1>
-            <p className=" text-xl tracking-wider">
-              Listen to previous messages
-            </p>
-            <button className=" bg-green-600 rounded px-5 py-1">
-              Listen Now
-            </button>
-          </div>
-        </div> */}
+      <div className=" grid grid-cols-2 gap-5 w-full place-items-center z-20">
+        <JoinUsCards title="Young People" link="/Subpages/About/Beliefs" />
+        <JoinUsCards title="Home Groups" link="/Subpages/About/Beliefs" />
+        <JoinUsCards title="Men and Women" link="/Subpages/About/Beliefs" />
+        <JoinUsCards title="Courses" link="/Subpages/About/Beliefs" />
       </div>
       <div className=" absolute inset-0 rounded-2xl bg-gradient-to-b from-white via-transparent to-transparent"></div>
     </div>
