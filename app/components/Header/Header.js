@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 
 function Header() {
   const top_colour = "bg-none";
-  const scroll_colour = "bg-gray-400";
-  const top_text = "text-black";
+  const scroll_colour = "bg-sky-600";
+  const top_text = "text-lime-500";
   const scroll_text = "text-white";
   const black_logo = "/mainLogoBlack.png";
   const white_logo = "/mainLogo.png";

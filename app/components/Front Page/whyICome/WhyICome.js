@@ -1,6 +1,6 @@
 function WhyICome() {
   return (
-    <div className=" bg-gray-400 pb-10">
+    <div className=" bg-sky-600 pb-10">
       <p className=" text-white py-10 text-5xl text-center">Why I attend TCM</p>
       <div className="flex justify-center h-[600px] max-w-5xl mx-auto">
         <iframe

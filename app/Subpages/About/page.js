@@ -1,7 +1,9 @@
+import AboutUsButtons from "@/app/components/Buttons/AboutUsButtons";
+
 function page() {
   return (
     <div>
-      <p>This is the first about page</p>
+      <AboutUsButtons link="#" title="What we believe" />
     </div>
   );
 }
