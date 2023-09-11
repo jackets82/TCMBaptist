@@ -4,7 +4,7 @@ import { Menu, Transition } from "@headlessui/react";
 import Link from "next/link";
 import { Fragment } from "react";
 
-function HeaderDropDown({ links, title }) {
+function HeaderDropDown({ links, title, headerLink }) {
   return (
     <Menu className=" relative" as="div">
       <Menu.Button
@@ -12,7 +12,7 @@ function HeaderDropDown({ links, title }) {
     focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75
       "
       >
-        {title}
+        <Link href={headerLink}>{title}</Link>
       </Menu.Button>
       <Transition
         as={Fragment}

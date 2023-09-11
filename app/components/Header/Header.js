@@ -18,7 +18,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 1) {
         setbackgroundColour(scroll_colour);
         settextColour(scroll_text);
         setLogo(white_logo);
@@ -50,6 +50,7 @@ function Header() {
               <li>Home</li>
             </Link>
             <HeaderDropDown
+              headerLink="/Subpages/About"
               title="About Us"
               links={[
                 { href: "/Subpages/About/Beliefs", label: "What we believe" },
@@ -62,6 +63,7 @@ function Header() {
               ]}
             />
             <HeaderDropDown
+              headerLink="#"
               title="Get Involved"
               links={[
                 { href: "/", label: "Services" },
@@ -77,6 +79,7 @@ function Header() {
               ]}
             />
             <HeaderDropDown
+              headerLink="#"
               title="Resources"
               links={[
                 { href: "/", label: "Sermons" },
@@ -90,6 +93,7 @@ function Header() {
               ]}
             />
             <HeaderDropDown
+              headerLink="#"
               title="Contact us"
               links={[{ href: "/", label: "Find us" }]}
             />
