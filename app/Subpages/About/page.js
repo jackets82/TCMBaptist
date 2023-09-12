@@ -68,9 +68,12 @@ function page() {
           building up of His people.
         </AboutSections>
       </div>
-      <div className="my-5 flex flex-col gap-5 bg-red-600 max-w-5xl mx-auto">
-        <h3>Pastor</h3>
-        <AboutTeam name="Greg DeWeese">
+      <div className="my-5 flex flex-col gap-20 max-w-5xl mx-auto">
+        <AboutTeam
+          name="Greg DeWeese"
+          title="Pastor"
+          picture="/gregDeWeese.jpeg"
+        >
           Greg was called to serve as Pastor of TCM from the United States in
           May 2020 and arrived during the Covid lockdown in late October 2020.
           <br />
@@ -86,21 +89,26 @@ function page() {
           of Theology, Biola University and an MDiv. from The Master’s Seminary
           in Los Angeles, CA.
         </AboutTeam>
-        <AboutTeam name="Ian Kirkby">
-          Greg was called to serve as Pastor of TCM from the United States in
-          May 2020 and arrived during the Covid lockdown in late October 2020.
+        <AboutTeam name="Ian Kirkby" title="Elders" picture="/IanKirkby.jpeg">
+          Ian came to TCM in 1998 and became an elder in 2008. He currently has
+          oversight of the Finance, Digital/Social Media, Audio-Visual, Fabric,
+          External Facilities, Cleaning, Men’s and Young People’s (Pursuit)
+          Ministries. He also leads the Potterhanworth Housegroup and
+          occasionally performs other ministries including preaching.
           <br />
           <br />
-          Greg is married to Laile and they have two sons. In addition to
-          outdoor activities like camping and hiking with his family, he enjoys
-          running. When he has free time, he likes to read history, Christian
-          biography, and especially Puritan classics. He enjoys exploring
-          historical sites significant to Christianity around the UK.
+          Ian is a management consultant. He is married with 2 grown children
+          and enjoys exercising, walking, reading and playing chess and golf
+          (badly, in the case of the latter!).
+        </AboutTeam>
+        <AboutTeam name="Rodger Moomba" picture="/Rodger.jpeg">
+          Rodger came to TCM in April 2004 and served as a Deacon for 4 years
+          heading the Care Team, Global Mission Team, Social Events Team and the
+          Resources Centre. <br />
           <br />
-          <br />
-          Greg holds an M.A. in Theological/Biblical Studies from Talbot School
-          of Theology, Biola University and an MDiv. from The Master’s Seminary
-          in Los Angeles, CA.
+          In 2009 he was recognised as an Elder. For just over 11 years, he was
+          also the Doddington House Group leader until December 2020. Rodger
+          loves listening to Christian Music and enjoys gardening.
         </AboutTeam>
       </div>
     </div>
