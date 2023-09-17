@@ -8,6 +8,7 @@ function AboutSections({ title, children, link }) {
         <p className="">{children}</p>
         <div>
           <Link
+            scroll={false}
             href={link}
             class="relative inline-flex items-center py-3 pr-12 text-white transition-all duration-150 ease-in-out hover:pr-6 group bgblack"
           >

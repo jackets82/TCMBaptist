@@ -7,8 +7,16 @@ function JoinUsMain() {
       <JoinUsThisSunday />
       <h1 className=" text-3xl">Explore what else happens at TCM</h1>
       <div className=" grid grid-cols-2 gap-5 w-full place-items-center z-20">
-        <JoinUsCards title="Young People" link="/Subpages/About/Beliefs" />
-        <JoinUsCards title="Home Groups" link="/Subpages/About/Beliefs" />
+        <JoinUsCards
+          title="Young People"
+          link="/Subpages/About/Beliefs"
+          image="/youth.jpeg"
+        />
+        <JoinUsCards
+          title="Home Groups"
+          link="/Subpages/About/Beliefs"
+          image="/homeGroup.jpeg"
+        />
         <JoinUsCards title="Men and Women" link="/Subpages/About/Beliefs" />
         <JoinUsCards title="Courses" link="/Subpages/About/Beliefs" />
       </div>
