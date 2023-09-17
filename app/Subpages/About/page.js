@@ -1,11 +1,12 @@
 import AboutSections from "./AboutSections";
 import AboutTeam from "./AboutTeam";
+import TeamTitle from "./TeamTitle";
 
 function page() {
   return (
-    <div>
+    <div className="">
       <div className=" text-black [&>*:nth-child(even)]:bg-yellow-600 [&>*:nth-child(odd)]:bg-rose-800">
-        <AboutSections title="Baptism" link="#">
+        <AboutSections title="Baptism" link="/Subpages/About/Baptism">
           The Lord Jesus committed two ordinances to the church as permanent
           practices: The Lord’s Supper and baptism (Matt. 28:19-20; Acts
           2:38-42; 1 Cor. 11:23-26). Baptism is a visible symbol of God’s saving
@@ -15,7 +16,7 @@ function page() {
           their faith in Jesus Christ gladly identify with the Lord Jesus, the
           Head of the Church, and his body. (Acts 2:37-39; Rom. 6:1-3).
         </AboutSections>
-        <AboutSections title="Membership" link="#">
+        <AboutSections title="Membership" link="/Subpages/About/Membership">
           At TCM Baptist Church, we believe that God desires every believer to
           be committed to one another in the local church. We teach that church
           membership is a biblical and beneficial way to express this
@@ -37,7 +38,7 @@ function page() {
           ordained purposes. <br />
           <br />
         </AboutSections>
-        <AboutSections title="Our history">
+        <AboutSections title="Our history" link="#">
           The Thomas Cooper Memorial Baptist Church has a long association with
           Lincoln. However, the present building only opened its doors in 1972.{" "}
           <br />
@@ -52,7 +53,7 @@ function page() {
           took an opportunity to move further down Lincoln High Street to where
           it can be found today.
         </AboutSections>
-        <AboutSections title="Mission partners">
+        <AboutSections title="Mission partners" link="/Subpages/About/Baptism">
           In Matthew 28:19 God’s command, to the disciples and to us, makes it
           clear that we are all to be involved in the task of proclaiming and
           sharing the good news of Jesus Christ. <br />
@@ -68,12 +69,10 @@ function page() {
           building up of His people.
         </AboutSections>
       </div>
-      <div className="my-5 flex flex-col gap-20 max-w-5xl mx-auto">
-        <AboutTeam
-          name="Greg DeWeese"
-          title="Pastor"
-          picture="/gregDeWeese.jpeg"
-        >
+      <div className="my-20 flex flex-col max-w-5xl mx-auto">
+        <h1 className="text-center text-5xl"> Our Team</h1>
+        <TeamTitle title="Pastor" />
+        <AboutTeam name="Greg DeWeese" image="/gregDeweese.jpeg">
           Greg was called to serve as Pastor of TCM from the United States in
           May 2020 and arrived during the Covid lockdown in late October 2020.
           <br />
@@ -89,7 +88,9 @@ function page() {
           of Theology, Biola University and an MDiv. from The Master’s Seminary
           in Los Angeles, CA.
         </AboutTeam>
-        <AboutTeam name="Ian Kirkby" title="Elders" picture="/IanKirkby.jpeg">
+
+        <TeamTitle title="Elders" />
+        <AboutTeam name="Ian Kirkby" image="/IanKirkby.jpeg">
           Ian came to TCM in 1998 and became an elder in 2008. He currently has
           oversight of the Finance, Digital/Social Media, Audio-Visual, Fabric,
           External Facilities, Cleaning, Men’s and Young People’s (Pursuit)
@@ -101,14 +102,16 @@ function page() {
           and enjoys exercising, walking, reading and playing chess and golf
           (badly, in the case of the latter!).
         </AboutTeam>
-        <AboutTeam name="Rodger Moomba" picture="/Rodger.jpeg">
+        <br />
+        <AboutTeam name="Rodger Moomba" image="/Rodger.jpeg">
           Rodger came to TCM in April 2004 and served as a Deacon for 4 years
           heading the Care Team, Global Mission Team, Social Events Team and the
-          Resources Centre. <br />
+          Resources Centre.
+          <br />
           <br />
           In 2009 he was recognised as an Elder. For just over 11 years, he was
           also the Doddington House Group leader until December 2020. Rodger
-          loves listening to Christian Music and enjoys gardening.
+          loves listening to Christian Music and enjoy gardening.
         </AboutTeam>
       </div>
     </div>

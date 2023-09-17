@@ -8,7 +8,7 @@ function AboutSections({ title, children, link }) {
         <p className="">{children}</p>
         <div>
           <Link
-            href="#_"
+            href={link}
             class="relative inline-flex items-center py-3 pr-12 text-white transition-all duration-150 ease-in-out hover:pr-6 group bgblack"
           >
             <span class="absolute left-28 pr4 duration-200 ease-out group-hover:translate-x-2">
