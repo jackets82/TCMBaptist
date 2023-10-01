@@ -11,23 +11,10 @@ function Hero() {
         className=" h-full w-full"
         style={{ objectFit: "cover" }}
       ></video>
-      {/* <Image
-        src="/church.jpg"
-        alt=""
-        style={{ objectFit: "cover", objectPosition: "50% 50%" }}
-        fill
-      /> */}
-      <div className=" text-lime-500 absolute w-full bottom-10 left-1/2 -translate-x-1/2 text-center ">
+
+      <div className=" bg-orange-600 text-white absolute px-10 py-20 w-3/5 -bottom-40 left-1/2 -translate-x-1/2 text-center flex flex-col justify-center">
         <h1 className=" text-6xl pb-5">A Christ centered Church</h1>
         <p className=" text-3xl">In the world but not of the world</p>
-        {/* <div className=" flex justify-center gap-5">
-          <HeroButtons
-            text="Statement of Faith"
-            link="/Subpages/About/Beliefs"
-            ringColour="ring-white"
-          />
-          <HeroButtons text="Join Us" link="/#" ringColour="ring-white" />
-        </div> */}
       </div>
     </div>
   );

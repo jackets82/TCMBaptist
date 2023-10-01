@@ -16,24 +16,24 @@ function Header() {
   const [textColour, settextColour] = useState(top_text);
   const [logo, setLogo] = useState(black_logo);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY >= 1) {
-        setbackgroundColour(scroll_colour);
-        settextColour(scroll_text);
-        setLogo(white_logo);
-      } else {
-        setbackgroundColour(top_colour);
-        settextColour(top_text);
-        setLogo(black_logo);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-  }, []);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY >= 1) {
+  //       setbackgroundColour(scroll_colour);
+  //       settextColour(scroll_text);
+  //       setLogo(white_logo);
+  //     } else {
+  //       setbackgroundColour(top_colour);
+  //       settextColour(top_text);
+  //       setLogo(black_logo);
+  //     }
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
+  // }, []);
 
   return (
     <div
-      className={`${backgroundColour} ${textColour}  font-bold py-3 top-0 z-20 w-full sticky transition-all duration-300 `}
+      className={`bg-white text-black font-bold py-3 top-0 z-20 w-full stiky transition-all duration-300 `}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
         <div className=" flex">
