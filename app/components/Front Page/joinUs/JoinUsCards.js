@@ -1,13 +1,11 @@
 import Image from "next/image";
 
-function JoinUsCards() {
+function JoinUsCards({ text }) {
   return (
     <div className=" rounded-2xl w-full h-52 relative overflow-hidden">
       <Image src="/cross.jpg" fill style={{ objectFit: "cover" }} />
       <div className="w-full h-5 absolute bottom-5 text-center">
-        <p className=" text-xl font-bold tracking-wider text-white">
-          THIS IS SOME TEXT
-        </p>
+        <p className=" text-xl font-bold tracking-wider text-white">{text}</p>
       </div>
     </div>
   );

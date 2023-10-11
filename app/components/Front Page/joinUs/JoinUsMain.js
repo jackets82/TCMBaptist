@@ -17,8 +17,8 @@ function JoinUsMain() {
       </div>
       <h1 className=" text-3xl">Explore what else happens at TCM</h1>
       <div className=" grid grid-cols-3 gap-5 w-full place-items-center">
-        <JoinUsCards />
-        <JoinUsCards />
+        <JoinUsCards text="Ministries" />
+        <JoinUsCards text="Home Groups" />
         <JoinUsCards />
         <JoinUsCards />
         <JoinUsCards />
