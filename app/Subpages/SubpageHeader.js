@@ -1,8 +1,8 @@
 function SubpageHeader({ title }) {
   return (
-    <div className=" flex h-28 mt-[78px] w-full text-center">
-      <div className=" bgred-500 max-w-6xl mx-auto h-full flex items-center px-10 xl:px-0">
-        <h1 className=" text-5xl">{title}</h1>
+    <div className=" flex h-28 mt-[78px] w-full text-center bg-orange-600">
+      <div className="mx-auto h-full flex items-center prose xl:px-0">
+        <h1 className=" text-white text-5xl">{title}</h1>
       </div>
     </div>
   );

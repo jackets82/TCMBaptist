@@ -8,11 +8,12 @@ function HeaderDropDown({ links, title, headerLink }) {
   return (
     <Menu className=" relative" as="div">
       <Menu.Button
-        className=" inline-flex w-full justify-center  
+        className="inline-flex w-full justify-center  
     focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75
       "
       >
-        <Link href={headerLink}>{title}</Link>
+        {title}
+        {/* <Link href={headerLink}>{title}</Link> */}
       </Menu.Button>
       <Transition
         as={Fragment}
@@ -24,12 +25,12 @@ function HeaderDropDown({ links, title, headerLink }) {
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items
-          className=" absolute right-0 origin-top-right mt-2  w-56 divide-y divide-gray-100
-        bg-white shadowlg ring-1 ring-black ring-opacity-5 focus:outline-none
+          className=" absolute right-0 origin-top-right mt-2 w-56 divide-y divide-gray-100
+        bg-orange-600 ring-1 ring-black ring-opacity-5 focus:outline-none
         "
         >
           {links.map((link) => (
-            <div className=" p1" key={link.label}>
+            <div className="p1" key={link.label}>
               <Menu.Item>
                 {({ active }) => (
                   <Link

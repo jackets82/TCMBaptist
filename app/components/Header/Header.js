@@ -3,48 +3,22 @@ import Image from "next/image";
 import Link from "next/link";
 import HeaderDropDown from "./HeaderDropDown";
 import { useEffect, useState } from "react";
+import BurgerDropDown from "./BurgerDropDown";
 
 function Header() {
-  const top_colour = "bg-none";
-  const scroll_colour = "bg-sky-600";
-  const top_text = "text-lime-500";
-  const scroll_text = "text-white";
-  const black_logo = "/mainLogoBlack.png";
-  const white_logo = "/mainLogo.png";
-
-  const [backgroundColour, setbackgroundColour] = useState(top_colour);
-  const [textColour, settextColour] = useState(top_text);
-  const [logo, setLogo] = useState(black_logo);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY >= 1) {
-  //       setbackgroundColour(scroll_colour);
-  //       settextColour(scroll_text);
-  //       setLogo(white_logo);
-  //     } else {
-  //       setbackgroundColour(top_colour);
-  //       settextColour(top_text);
-  //       setLogo(black_logo);
-  //     }
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  // }, []);
-
   return (
     <div
-      className={`bg-white text-black font-bold py-3 top-0 z-20 w-full stiky transition-all duration-300 `}
+      className={`bg-white text-black font-bold py-3 top-0 z-20 w-full transition-all duration-300 `}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
         <div className=" flex">
           <div className=" w-44">
             <Link href="/#">
-              <Image src={`${logo}`} width={500} height={500} alt="" />
+              <Image src="/mainLogoBlack.png" width={500} height={500} alt="" />
             </Link>
           </div>
         </div>
-
-        <div className="">
+        <div className="hidden lg:inline">
           <ul className=" flex gap-5">
             <Link href="/#">
               <li>Home</li>
@@ -55,7 +29,7 @@ function Header() {
               links={[
                 { href: "/Subpages/About/Beliefs", label: "What we believe" },
                 { href: "/Subpages/About/Baptism", label: "Baptism" },
-                { href: "/#", label: "Membership" },
+                { href: "/Subpages/About/Membership", label: "Membership" },
                 { href: "/#", label: "Who we are" },
                 { href: "/#", label: "Mission partners" },
                 { href: "/#", label: "Our history" },
@@ -108,3 +82,28 @@ function Header() {
 }
 
 export default Header;
+
+// const top_colour = "bg-none";
+// const scroll_colour = "bg-sky-600";
+// const top_text = "text-lime-500";
+// const scroll_text = "text-white";
+// const black_logo = "/mainLogoBlack.png";
+// const white_logo = "/mainLogo.png";
+
+// const [backgroundColour, setbackgroundColour] = useState(top_colour);
+// const [textColour, settextColour] = useState(top_text);
+
+// useEffect(() => {
+//   const handleScroll = () => {
+//     if (window.scrollY >= 1) {
+//       setbackgroundColour(scroll_colour);
+//       settextColour(scroll_text);
+//       setLogo(white_logo);
+//     } else {
+//       setbackgroundColour(top_colour);
+//       settextColour(top_text);
+//       setLogo(black_logo);
+//     }
+//   };
+//   window.addEventListener("scroll", handleScroll);
+// }, []);

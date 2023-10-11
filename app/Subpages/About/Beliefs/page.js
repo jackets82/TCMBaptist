@@ -3,9 +3,9 @@ import BeliefsCard from "./BeliefsCard";
 
 function page() {
   return (
-    <div className=" flex-grow pb-10">
+    <div className="flex-grow pb-10 mx-auto flex flex-col justify-center">
       <SubpageHeader title="What we believe" />
-      <div className=" max-w-6xl mx-auto px-10 xl:px-0 gridgrid-cols-3 gap-5 flex flex-col">
+      <div className=" py-20 max-w-6xl mx-auto px-10 xl:px-0 gridgrid-cols-3 gap-10 flex flex-col">
         <BeliefsCard
           title="1. God"
           text="There is one God, who exists eternally in three distinct but equal persons: the Father, the Son, and the Holy Spirit. God is unchangeable in his holiness, justice, wisdom and love. He is the almighty Creator, Saviour and Judge who sustains and governs all things according to his sovereign will for his own glory."

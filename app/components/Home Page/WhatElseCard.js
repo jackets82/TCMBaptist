@@ -11,9 +11,9 @@ function WhatElseCard({ image, text }) {
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
           />
-          <div className=" absolute flex flex-col left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-0 bg-red-700 w-full items-center">
+          <div className=" absolute flex flex-col left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-0 bg-orange-600 w-full items-center">
             <div>
-              <p className=" text-3xl">{text}</p>
+              <p className=" text-white font-bold text-3xl">{text}</p>
             </div>
           </div>
         </Link>
