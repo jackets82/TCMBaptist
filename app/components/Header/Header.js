@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 
 function Header() {
   const top_colour = "bg-none";
-  const scroll_colour = "bg-gray-400";
-  const top_text = "text-black";
+  const scroll_colour = "bg-sky-600";
+  const top_text = "text-lime-500";
   const scroll_text = "text-white";
   const black_logo = "/mainLogoBlack.png";
   const white_logo = "/mainLogo.png";
@@ -16,24 +16,24 @@ function Header() {
   const [textColour, settextColour] = useState(top_text);
   const [logo, setLogo] = useState(black_logo);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY >= 90) {
-        setbackgroundColour(scroll_colour);
-        settextColour(scroll_text);
-        setLogo(white_logo);
-      } else {
-        setbackgroundColour(top_colour);
-        settextColour(top_text);
-        setLogo(black_logo);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-  }, []);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY >= 1) {
+  //       setbackgroundColour(scroll_colour);
+  //       settextColour(scroll_text);
+  //       setLogo(white_logo);
+  //     } else {
+  //       setbackgroundColour(top_colour);
+  //       settextColour(top_text);
+  //       setLogo(black_logo);
+  //     }
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
+  // }, []);
 
   return (
     <div
-      className={`${backgroundColour} ${textColour}  font-bold py-3 top-0 z-20 w-full sticky transition-all duration-300 `}
+      className={`bg-white text-black font-bold py-3 top-0 z-20 w-full stiky transition-all duration-300 `}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
         <div className=" flex">
@@ -50,6 +50,7 @@ function Header() {
               <li>Home</li>
             </Link>
             <HeaderDropDown
+              headerLink="/Subpages/About"
               title="About Us"
               links={[
                 { href: "/Subpages/About/Beliefs", label: "What we believe" },
@@ -62,6 +63,7 @@ function Header() {
               ]}
             />
             <HeaderDropDown
+              headerLink="#"
               title="Get Involved"
               links={[
                 { href: "/", label: "Services" },
@@ -77,6 +79,7 @@ function Header() {
               ]}
             />
             <HeaderDropDown
+              headerLink="#"
               title="Resources"
               links={[
                 { href: "/", label: "Sermons" },
@@ -90,6 +93,7 @@ function Header() {
               ]}
             />
             <HeaderDropDown
+              headerLink="#"
               title="Contact us"
               links={[{ href: "/", label: "Find us" }]}
             />

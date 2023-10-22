@@ -1,5 +1,5 @@
 function layout({ children }) {
-  return <div className="flex-grow bggreen-600">{children}</div>;
+  return <div className="flex-grow">{children}</div>;
 }
 
 export default layout;

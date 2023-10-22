@@ -3,7 +3,7 @@ import ContactIcon from "./ContactIcon";
 
 function Footer() {
   return (
-    <div className=" bg-gray-400 py-36 text-white fill-white ">
+    <div className=" bg-sky-600 py-36 text-lime-500 fill-white ">
       <div className="md:grid grid-cols-3 mx-auto max-w-6xl place-items-center pb-20 md:gap-0 gap-5 flex flex-col">
         <ContactIcon
           title="EMAIL"
