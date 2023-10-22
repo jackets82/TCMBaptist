@@ -38,6 +38,7 @@ function HeaderDropDown({ links, title, headerLink }) {
                       active ? " bg-gray-500" : "text-gray-900"
                     } group flex  p-1 items-center text`}
                     href={link.href}
+                    scroll={false}
                   >
                     {link.label}
                   </Link>

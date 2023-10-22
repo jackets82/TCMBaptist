@@ -142,7 +142,11 @@ function page() {
             <br /> Looking for more detail? Check out our
             <span className=" ">
               {" "}
-              <Link href="#" className=" text-orange-600 font-bold">
+              <Link
+                href="#"
+                className=" text-orange-600 font-bold"
+                scroll={false}
+              >
                 Membership FAQ
               </Link>{" "}
             </span>

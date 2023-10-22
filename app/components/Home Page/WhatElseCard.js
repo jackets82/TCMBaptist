@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function WhatElseCard({ image, text }) {
+function WhatElseCard({ image, text, link }) {
   return (
     <>
       <div className=" h-96 w-full rounded-md bg-white relative overflow-hidden hover:shadow-lg hover:-translate-y-[1px] transition-all duration-150">
-        <Link href="#">
+        <Link href={link} scroll={false}>
           <Image
             src={image}
             fill

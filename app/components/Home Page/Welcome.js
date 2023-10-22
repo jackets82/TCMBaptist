@@ -18,7 +18,9 @@ function Welcome() {
           teachings, seeking to be a refuge from a corrupt and dying world.
           Please click {""}
           <span className="font-bold text-orange-600">
-            <Link href="/Subpages/About/Beliefs">here </Link>
+            <Link href="/Subpages/About/Beliefs" scroll={false}>
+              here{" "}
+            </Link>
           </span>
           for our full statement.
         </p>

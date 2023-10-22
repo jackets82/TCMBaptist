@@ -2,6 +2,8 @@ import SocialButton from "../SocialButton";
 import ContactIcon from "./ContactIcon";
 
 function Footer() {
+  const date = new Date();
+  let year = date.getFullYear();
   return (
     <div className=" bg-orange-600 py-36 text-white fill-white">
       <div className="md:grid grid-cols-3 mx-auto max-w-6xl place-items-center pb-20 md:gap-0 gap-5 flex flex-col">
@@ -68,7 +70,7 @@ function Footer() {
             }
           />
         </div>
-        <div>Copyright - get year here</div>
+        <div>Copyright - {year}</div>
       </div>
     </div>
   );

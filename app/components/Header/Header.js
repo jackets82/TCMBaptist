@@ -13,14 +13,14 @@ function Header() {
       <div className="max-w-6xl mx-auto flex justify-between items-center px-10 xl:px-0">
         <div className=" flex">
           <div className=" w-44">
-            <Link href="/#">
+            <Link href="/#" scroll={false}>
               <Image src="/mainLogoBlack.png" width={500} height={500} alt="" />
             </Link>
           </div>
         </div>
         <div className="hidden lg:inline">
           <ul className=" flex gap-5">
-            <Link href="/#">
+            <Link href="/#" scroll={false}>
               <li>Home</li>
             </Link>
             <HeaderDropDown
@@ -71,7 +71,7 @@ function Header() {
               title="Contact us"
               links={[{ href: "/", label: "Find us" }]}
             />
-            <Link href="/#" className=" ">
+            <Link href="/#" className=" " scroll={false}>
               <li>Donate</li>
             </Link>
           </ul>
