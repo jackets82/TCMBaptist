@@ -5,7 +5,7 @@ import TeamTitle from "./TeamTitle";
 function page() {
   return (
     <div className="">
-      <div className=" text-black [&>*:nth-child(even)]:bg-yellow-600 [&>*:nth-child(odd)]:bg-rose-800">
+      <div className=" text-black [&>*:nth-child(even)]:bg-orange-600 [&>*:nth-child(odd)]:bg-slate-300">
         <AboutSections title="Baptism" link="/Subpages/About/Baptism">
           The Lord Jesus committed two ordinances to the church as permanent
           practices: The Lord’s Supper and baptism (Matt. 28:19-20; Acts

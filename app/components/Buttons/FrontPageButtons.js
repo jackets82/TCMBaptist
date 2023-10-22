@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function FrontPageButtons({ link, title }) {
   return (
-    <Link href={link}>
+    <Link href={link} scroll={false}>
       <button
         className={`py-2 w-40 ring-2 hover:shadow-md hover:shadow-gray-600 text-black ring-black transition-all duration-150`}
       >
