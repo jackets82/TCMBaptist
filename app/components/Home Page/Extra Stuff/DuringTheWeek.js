@@ -11,8 +11,8 @@ function DuringTheWeek() {
         <div className="grid grid-cols-3 place-items-center gap-10">
           <ExtraStuffTile title="Extra Time" />
           <ExtraStuffTile title="House Groups" />
-          <ExtraStuffTile title="Men's Ministries" />
-          <ExtraStuffTile title="Women's Ministries" />
+          <ExtraStuffTile title={`Men's Ministries`} />
+          <ExtraStuffTile title={`Women's Ministries`} />
           <ExtraStuffTile title="Young Adults" />
           <ExtraStuffTile title="Children & Youth Groups" />
           <ExtraStuffTile title="Sunday School" />
