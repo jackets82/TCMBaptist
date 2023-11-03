@@ -1,0 +1,81 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Fix the footer links please",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "2",
+      "title": "Add in a new stylesheet",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "3",
+      "title": "Fix the footer links",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "high",
+      "user_email": "peach@netninja.dev"
+    }
+  ],
+  "housegroups": [
+    {
+      "id": "1",
+      "title": "North",
+      "hosts": "Ian and Rowena"
+    },
+    {
+      "id": "2",
+      "title": "South",
+      "hosts": "Greg and Laile"
+    }
+  ],
+  "weekly_activities": [
+    {
+      "id": "1",
+      "title": "Extra Time",
+      "link": "/",
+      "image": "/clock.jpg"
+    },
+    {
+      "id": "2",
+      "title": "House Groups",
+      "link": "/Subpages/Get_Involved/House_Groups",
+      "image": "/homeGroup.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Men's Ministries",
+      "link": "/",
+      "image": "/clouds.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Women's Ministries",
+      "link": "/",
+      "image": "/clouds.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Young Adults",
+      "link": "/",
+      "image": "/clouds.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Children & Youth Groups",
+      "link": "/",
+      "image": "/clouds.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Sunday School",
+      "link": "/",
+      "image": "/clouds.jpg"
+    }
+  ]
+}

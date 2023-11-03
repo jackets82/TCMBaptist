@@ -44,7 +44,10 @@ function Header() {
                 { href: "/#", label: "Extra time" },
                 { href: "/#", label: "Sunday school" },
                 { href: "/#", label: "Young adults" },
-                { href: "/", label: "Housegroups" },
+                {
+                  href: "/Subpages/Get_Involved/House_Groups",
+                  label: "Housegroups",
+                },
                 { href: "/#", label: "Children's and youth groups" },
                 { href: "/#", label: "Christianity explored" },
                 { href: "/#", label: "Hope explored" },
@@ -82,28 +85,3 @@ function Header() {
 }
 
 export default Header;
-
-// const top_colour = "bg-none";
-// const scroll_colour = "bg-sky-600";
-// const top_text = "text-lime-500";
-// const scroll_text = "text-white";
-// const black_logo = "/mainLogoBlack.png";
-// const white_logo = "/mainLogo.png";
-
-// const [backgroundColour, setbackgroundColour] = useState(top_colour);
-// const [textColour, settextColour] = useState(top_text);
-
-// useEffect(() => {
-//   const handleScroll = () => {
-//     if (window.scrollY >= 1) {
-//       setbackgroundColour(scroll_colour);
-//       settextColour(scroll_text);
-//       setLogo(white_logo);
-//     } else {
-//       setbackgroundColour(top_colour);
-//       settextColour(top_text);
-//       setLogo(black_logo);
-//     }
-//   };
-//   window.addEventListener("scroll", handleScroll);
-// }, []);
