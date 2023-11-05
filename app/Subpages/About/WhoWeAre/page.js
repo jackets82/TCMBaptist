@@ -19,14 +19,12 @@ async function page() {
             <h1 className=" pb-3 text-5xl">{team.heading}</h1>
             <div className=" flex flex-col gap-5">
               {team.people.map((person, index) => (
-                <div className="flex gap-10">
+                <div className="flex gap-10" key={index}>
                   <div className="">
                     <Image src={person.image} width={300} height={300} alt="" />
                   </div>
                   <div className="prose">
-                    <h2 className=" text-2xl" key={index}>
-                      {person.name}
-                    </h2>
+                    <h2 className=" text-2xl">{person.name}</h2>
                     <p>{person.blurb}</p>
                   </div>
                 </div>
