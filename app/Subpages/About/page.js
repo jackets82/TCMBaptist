@@ -1,5 +1,5 @@
 import AboutSections from "./AboutSections";
-import AboutTeam from "./AboutTeam";
+import AboutTeam from "./WhoWeAre/AboutTeam";
 import TeamTitle from "./TeamTitle";
 
 function page() {

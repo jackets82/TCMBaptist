@@ -30,7 +30,7 @@ function Header() {
                 { href: "/Subpages/About/Beliefs", label: "What we believe" },
                 { href: "/Subpages/About/Baptism", label: "Baptism" },
                 { href: "/Subpages/About/Membership", label: "Membership" },
-                { href: "/#", label: "Who we are" },
+                { href: "/Subpages/About/WhoWeAre", label: "Who we are" },
                 { href: "/#", label: "Mission partners" },
                 { href: "/#", label: "Our history" },
                 { href: "/#", label: "FAQs" },

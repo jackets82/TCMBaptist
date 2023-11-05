@@ -84,9 +84,8 @@
       "heading": "Pastor",
       "people": [
         {
-          "name": "Greg DeWeese",
-          "image": "/gregDeweese.jpeg",
-          "blurb": "Greg was called to serve as Pastor of TCM from the United States in May 2020 and arrived during the Covid lockdown in late October 2020. Greg is married to Laile and they have two sons.  In addition to outdoor activities like camping and hiking with his family, he enjoys running.  When he has free time, he likes to read history, Christian biography, and especially Puritan classics. He enjoys exploring historical sites significant to Christianity around the UK. Greg holds an M.A. in Theological/Biblical Studies from Talbot School of Theology, Biola University and an MDiv. from The Master’s Seminary in Los Angeles, CA."
+          "name": "Greg DeWeese and Laile",
+          "image": "some text"
         }
       ]
     },
@@ -96,24 +95,11 @@
       "people": [
         {
           "name": "Ian Kirkby",
-          "image": "/IanKirkby.jpeg",
-          "blurb": "Ian came to TCM in 1998 and became an elder in 2008. He currently has oversight of the Finance, Digital/Social Media, Audio-Visual, Fabric, External Facilities, Cleaning, Men’s and Young People’s (Pursuit) Ministries. He also leads the Potterhanworth Housegroup and occasionally performs other ministries including preaching. Ian is a management consultant. He is married with 2 grown children and enjoys exercising, walking, reading and playing chess and golf (badly, in the case of the latter!)."
+          "image": "/IanKirkby.jpeg"
         },
         {
           "name": "Rodger Moomba",
-          "image": "/Rodger.jpeg",
-          "blurb": "Rodger came to TCM in April 2004 and served as a Deacon for 4 years heading the Care Team, Global Mission Team, Social Events Team and the Resources Centre. In 2009 he was recognised as an Elder. For just over 11 years, he was also the Doddington House Group leader until December 2020. Rodger loves listening to Christian Music and enjoy gardening."
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "heading": "Deacons",
-      "people": [
-        {
-          "name": "Mark Williams",
-          "image": "/Mark.jpeg",
-          "blurb": "Mark moved to Lincoln in 2002 to study at University and soon became settled at TCM. It was whilst studying that he met his wife, Ruth and together they made Lincoln their home. Mark became a Deacon in 2010 and has oversight for the Music Ministry. He regularly leads worship as well as being one of the service leaders. Mark and his wife have two young children. He is a keen musician, never being too far away from one of his guitars. He enjoys music, running and supporting the mighty Chester FC!"
+          "image": "/Rodger.jpeg"
         }
       ]
     }
